@@ -1,0 +1,68 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  background: #F4F5FB;
+}
+
+.flex {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typed {
+  font-family: "Letter Gothic Std";
+  font-size: 3.8em;
+  font-weight: 100;
+  color: #595959;
+}
+
+.typed-cursor {
+  height: 3.6em;
+  width: 0.2em;
+  margin-left: 0.3em;
+  position: relative;
+  top: -0.3em;
+  background: #595959;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1 }
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1 }
+}
+
+@-moz-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1 }
+}
+
+@-ms-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1 }
+}
+
+@-o-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1 }
+}
+
