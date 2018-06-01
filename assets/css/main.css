@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
 body {
   padding: 0;
   margin: 0;
@@ -15,7 +17,7 @@ body {
 }
 
 .typed {
-  font-family: "Letter Gothic Std";
+  font-family: "Didact Gothic";
   font-size: 3.8em;
   font-weight: 100;
   color: #595959;
